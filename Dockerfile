@@ -13,3 +13,6 @@ RUN \
     # # cleanup
     && rm -rf \
         /tmp/*
+
+# Copy local files
+COPY root/ /
